@@ -16,6 +16,7 @@
 
 package com.example.android.devbyteviewer.database
 
+import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.example.android.devbyteviewer.domain.DevByteVideo
 
@@ -24,6 +25,7 @@ import com.example.android.devbyteviewer.domain.DevByteVideo
  * Database entities go in this file. These are responsible for reading and writing from the
  * database.
  */
+@Entity
 data class DatabaseVideo constructor(
         @PrimaryKey
         val url: String,
