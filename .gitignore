@@ -67,3 +67,4 @@ distTmp/
 outTmp/
 /test.output
 /kotlin-native/dist
+.idea/caches/build_file_checksums.ser
